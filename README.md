@@ -76,6 +76,7 @@ adb install -r app-debug.apk
 
 ### Primeira configuração
 
+0. **Central QF005:** siga antes o [guia de desbloqueio](docs/desbloqueio-qf005.md).
 1. **Tela inicial:** aperte Home e escolha "RotivMedia" → "Sempre". Na QF005 o launcher padrão fica no `config_service` do sistema (veja [docs/central-qf005.md](docs/central-qf005.md)).
 2. **Localização e notificações:** permita quando o app pedir.
 3. **Acesso à música:** toque em "Liberar música" na faixa de baixo e ative "RotivMedia · música". Pelo ADB:
@@ -120,7 +121,8 @@ adb install -r app-debug.apk
 | `Prefs.kt` | Ajustes salvos |
 | `tools/barra_central.py` | Gera a imagem da faixa da barra de cima (Pillow) |
 
-Notas técnicas sobre a central (encaixe de janelas, SystemUI, launcher padrão, ADB): [docs/central-qf005.md](docs/central-qf005.md). Histórico de versões: [CHANGELOG.md](CHANGELOG.md).
+- **Desbloqueio da central** (menu de engenharia, ADB pela rede, Tailscale, sobreviver ao reboot, launcher padrão, como desfazer): [docs/desbloqueio-qf005.md](docs/desbloqueio-qf005.md).
+- Notas técnicas (encaixe de janelas, SystemUI, launcher padrão, ADB): [docs/central-qf005.md](docs/central-qf005.md). Histórico de versões: [CHANGELOG.md](CHANGELOG.md).
 
 ## Licença
 
