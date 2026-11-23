@@ -1,3 +1,5 @@
+[English](en/unlocking-qf005.md) · **Português**
+
 # Desbloqueio da central ROCO K706 / QF005
 
 Passo a passo do que foi feito no Android da central para instalar e controlar o RotivMedia: ligar o ADB, acessar pela rede, tornar o launcher padrão e manter tudo funcionando depois de reiniciar.

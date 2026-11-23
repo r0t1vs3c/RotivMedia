@@ -1,3 +1,5 @@
+[English](CHANGELOG.en.md) · **Português**
+
 # Histórico de versões
 
 ## 0.6.4

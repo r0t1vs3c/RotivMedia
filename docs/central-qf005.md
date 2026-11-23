@@ -1,3 +1,5 @@
+[English](en/head-unit-qf005.md) · **Português**
+
 # Notas técnicas: central ROCO K706 / QF005
 
 O que foi descoberto ao desenvolver o RotivMedia nesta central. Vale para o firmware QF005 da Qianfeng (Shenzhen); outros firmwares podem ser diferentes.

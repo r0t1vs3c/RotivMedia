@@ -1,3 +1,5 @@
+[English](README.en.md) · **Português**
+
 # RotivMedia
 
 Launcher Android feito do zero para central multimídia de carro, com a identidade visual da **RotivSecurity**.
