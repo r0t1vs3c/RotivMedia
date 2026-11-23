@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RotivMedia</string>
+    <string name="painel_name">Painel RotivMedia</string>
+    <string name="media_listener_name">RotivMedia · música</string>
+</resources>

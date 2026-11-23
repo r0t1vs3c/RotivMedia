@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="rotiv_dark">#070B14</color>
+
+    <style name="Theme.Rotiv" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/rotiv_dark</item>
+        <item name="android:statusBarColor">@color/rotiv_dark</item>
+        <item name="android:navigationBarColor">@color/rotiv_dark</item>
+        <item name="android:windowShowWallpaper">false</item>
+    </style>
+</resources>

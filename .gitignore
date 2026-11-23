@@ -1,0 +1,18 @@
+# build
+.gradle/
+.kotlin/
+build/
+app/build/
+*.apk
+*.aab
+
+# máquina local
+local.properties
+.idea/
+*.iml
+
+# chaves de assinatura e segredos
+*.jks
+*.keystore
+keystore.properties
+.env
