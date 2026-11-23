@@ -8,6 +8,8 @@ Foi feito e testado numa central **ROCO K706 / firmware QF005 (Qianfeng)**, vend
 
 > Projeto pessoal, sem relação com a QF, a ROCO ou a H-Tech. Use por sua conta e risco.
 
+**Quais centrais são compatíveis?** Veja a [lista de compatibilidade](docs/compatibilidade.md): a central testada, outras com QF005 (A-Sure, Hizpo, W5/W1, HiWorld…), as QF001 parcialmente compatíveis e como saber se a sua é QF.
+
 ## Tela inicial
 
 ```
@@ -123,6 +125,7 @@ adb install -r app-debug.apk
 | `Prefs.kt` | Ajustes salvos |
 | `tools/barra_central.py` | Gera a imagem da faixa da barra de cima (Pillow) |
 
+- **Centrais compatíveis**: [docs/compatibilidade.md](docs/compatibilidade.md).
 - **Desbloqueio da central** (menu de engenharia, ADB pela rede, Tailscale, sobreviver ao reboot, launcher padrão, como desfazer): [docs/desbloqueio-qf005.md](docs/desbloqueio-qf005.md).
 - Notas técnicas (encaixe de janelas, SystemUI, launcher padrão, ADB): [docs/central-qf005.md](docs/central-qf005.md). Histórico de versões: [CHANGELOG.pt-BR.md](CHANGELOG.pt-BR.md).
 

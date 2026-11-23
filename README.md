@@ -6,6 +6,8 @@ An Android launcher built from scratch for a car head unit, with the **RotivSecu
 
 It was built and tested on a **ROCO K706 / QF005 firmware (Qianfeng)** head unit, also sold as the H-Tech HT-9864CA. That unit runs real Android 10 (API 29), although it claims to be "Android 13". It has a 1280×800 landscape screen and a Unisoc chip. It should work on other Android 10+ head units, but docking the app windows requires freeform window mode to be available.
 
+**Which head units are compatible?** See the [compatibility list](docs/en/compatibility.md): tested unit, other QF005 units (A-Sure, Hizpo, W5/W1, HiWorld…), partly compatible QF001 units, and how to tell if yours is a QF unit.
+
 > Personal project, not affiliated with QF, ROCO or H-Tech. Use at your own risk.
 >
 > The app interface is in Brazilian Portuguese. Labels are quoted in Portuguese below, with the English meaning next to them.
@@ -125,6 +127,7 @@ adb install -r app-debug.apk
 | `Prefs.kt` | Saved settings |
 | `tools/barra_central.py` | Generates the brand strip image for the top bar (Pillow) |
 
+- **Compatible head units**: [docs/en/compatibility.md](docs/en/compatibility.md).
 - **Unlocking the head unit** (engineering menu, network ADB, Tailscale, surviving reboots, default launcher, how to undo it): [docs/en/unlocking-qf005.md](docs/en/unlocking-qf005.md).
 - Technical notes (window docking, SystemUI, default launcher, ADB): [docs/en/head-unit-qf005.md](docs/en/head-unit-qf005.md). Version history: [CHANGELOG.md](CHANGELOG.md).
 
