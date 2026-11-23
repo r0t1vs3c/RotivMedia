@@ -122,6 +122,12 @@ adb install -r app-debug.apk
 
 Notas técnicas sobre a central (encaixe de janelas, SystemUI, launcher padrão, ADB): [docs/central-qf005.md](docs/central-qf005.md). Histórico de versões: [CHANGELOG.md](CHANGELOG.md).
 
+## Licença
+
+O código está sob a [licença MIT](LICENSE): pode usar, modificar e distribuir, mantendo o aviso de copyright.
+
+**Não** entram na licença os nomes RotivSecurity e RotivMedia, o logo do dragão, o ícone do app e a faixa da marca (`barra_central.png`). Esses são todos os direitos reservados. Quem fizer um fork deve trocá-los pelos seus.
+
 ## Créditos
 
 - Fonte **Space Grotesk** (Florian Karsten), licença SIL Open Font License 1.1.
